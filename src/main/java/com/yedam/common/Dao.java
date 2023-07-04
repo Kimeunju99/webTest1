@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 // db접속 Connection 반환.
 public class Dao {
-	static String url = "jdbc:oracle:thin:@52.79.226.75:1521/xe"; //54.180.108.113 //
+	static String url = "jdbc:oracle:thin:@ip:1521/xe"; //
 	static String user = "proj";
 	static String pass = "proj";
 	static Connection conn;
